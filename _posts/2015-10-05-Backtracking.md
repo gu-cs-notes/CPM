@@ -20,4 +20,8 @@ Note that varibles are always added to the stack in the same order.
 
 Another way to visualise this is to view the search as a graph, of past variables with instantiated variables, current variable with a vaue being checked for validity (just-assigned value), and a set of future varaibles that are waiting for values to be assigned. 
 
+A problem with this is *thrashing*, where the system will make many changes and backtrack lots, if the vairable that needs changing is far back in the stack. This happens because the algorithm will check every value in the possibility space of each variable after that problematic variable in the stack. 
+
+So other people can use and share the resource, and to avoid redundant effort maintaining multiple sites, throw a pull request into the gu-cs-notes.github.io repo. 
+
 
