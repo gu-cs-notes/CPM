@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            CPM
+tagline:          Constraint Programming (Masters)
+description:      A masters course in Constraint Programming, by Patrick Prosser.
+url:              https://gu-cs-notes.github.io/CPM
+baseurl:          /CPM				# Note! This should be the repo title preceded by a forward slash, but not followed by one! For example, the baseurl for AI4 is "/AI4"
+
+author:
+  name:           'Tom Wallis'
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/gu-cs-notes/blackdoc
