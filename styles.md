@@ -1,6 +1,9 @@
 ---
+
 layout: page
 title: Theme Styles
+sidebar: false
+
 ---
 
 ## Full Style Test

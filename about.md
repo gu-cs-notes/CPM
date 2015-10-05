@@ -1,6 +1,9 @@
 ---
+
 layout: page
 title: About
+sidebar: false
+
 ---
 
 <p class="message">

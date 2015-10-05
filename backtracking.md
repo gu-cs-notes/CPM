@@ -2,6 +2,7 @@
 
 title: Backtracking
 layout: page
+sidebar: true
 
 ---
 
